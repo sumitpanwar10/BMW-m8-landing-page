@@ -1,0 +1,126 @@
+
+header{
+    width: 100%;
+    position:fixed;
+}
+.header-box{
+    background-color: black;
+    width: 100%;
+    margin:0%;
+    padding: 0.5%;
+    box-shadow: rgba(113, 119, 126, 0.377) 0px 8px 24px;
+}
+
+.siteLogo-img{
+    width: 5rem;
+    height: 5rem;
+    
+}
+.siteLogo-div{
+    position: relative;
+    top: -40px;
+    padding-left: 3%;;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 3%;
+    flex-wrap: wrap;
+}
+.nav-item{   
+    list-style-type: none; 
+    padding: 0 0.5em 0.5em 0.5em;
+}
+.nav-item a{
+    color: #f5f5f5;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif; 
+    text-decoration: none;
+}
+
+.nav-item a:hover{
+    text-decoration: underline;
+    text-decoration-color: #00A7FC;
+}
+
+#active{
+    text-decoration: underline;
+    text-decoration-color: #00A7FC;
+}
+
+.nav-item-search{
+    list-style-type: none;
+    margin: 0 2em 0 2em;
+}
+
+.search-icon{
+    
+    max-width: 21.6px;
+    height: auto;
+    padding: 0 0.5em 0 0.5em;
+   
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+main{
+    padding-top: 10em;
+}
+
+svg:hover path{
+    fill: #00A7FC;
+}
+
+/* .nav-item a:active{
+    color: #00A7FC;
+} */
+.flexRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.carDetails{
+    padding-left:4em;
+    /* width:38%; */
+
+}
+.carName{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: regular;
+    color: #525252;
+    /* font-size: 64px; */
+}
+
+.spec{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: semibold;
+    color: #434343;
+    /* font-size: 24px;     */
+}
+
+.specValue{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    color: #3262a0;
+    /* font-size: 36px;     */
+}
+
+.bg-img{
+    margin:0;
+    padding:0;
+
+}
+
+
+.imgContainer{
+    width:58%;
+     /* justify-content: flex-end; */
+    /*margin:0px; */
+    padding-left: 2rem;
+}
